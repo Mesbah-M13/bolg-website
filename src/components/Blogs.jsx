@@ -1,9 +1,7 @@
 import React from 'react'
 import Blog from './Blog'
-import { useSelector, useDispatch } from 'react-redux'
-import { articlesClearFilter } from '../store/blogs/actions'
+import { useSelector } from 'react-redux'
 const Blogs = () => {
-  const dispatch = useDispatch()
   const blogs = useSelector((state) => state.blogs.articles)
   return (
     <section className="relative bg-gray-50 pt-8 pb-20 px-4 sm:px-6 lg:pt-16 lg:pb-16 lg:px-8">
@@ -21,12 +19,7 @@ const Blogs = () => {
           </p>
         </div>
         {/* card grid  */}
-        <p
-          className="text-right pr-5 cursor-pointer bg-red-500 w-32 text-white hover:bg-red-400 w-32 hover:text-white-400 py-1 rounded ml-auto"
-          onClick={() => dispatch(articlesClearFilter())}
-        >
-          Clear Filter
-        </p>
+
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {/* single card  */}
 

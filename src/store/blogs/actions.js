@@ -31,9 +31,4 @@ export const articlesSearchFilter = (search) => {
     payload: search,
   }
 }
-export const articlesClearFilter = () => {
-  return {
-    type: CLEAR_FILTER,
-    payload:blogInitState,
-  }
-}
+
