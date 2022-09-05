@@ -1,4 +1,4 @@
-# Want to see in live action? <a target="_blank" href="https://resilient-cranachan-738f3d.netlify.app/">Live</a>
+# Want to see in live action? <a target="_blank" href="https://resilient-cranachan-738f3d.netlify.app/">Go Live</a>
 
 ## Getting Started with Create React App
 
